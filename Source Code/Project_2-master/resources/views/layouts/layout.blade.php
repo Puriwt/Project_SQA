@@ -115,7 +115,12 @@
                 @if (Route::has('login'))
                 @auth
                 <span class="nav-item">
-
+                    <a class="btn-solid-sm" href="{{ route('logout') }}" onclick="event.preventDefault(); 
+                        document.getElementById ('logout-form').submit();"> {{ __('Logout') }}
+                    </a>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form>
                 </span>
                 @else
                 <span class="nav-item">
