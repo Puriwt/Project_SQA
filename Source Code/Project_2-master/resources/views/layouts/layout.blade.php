@@ -115,7 +115,7 @@
                 @if (Route::has('login'))
                 @auth
                 <span class="nav-item">
-                
+
                 </span>
                 @else
                 <span class="nav-item">
