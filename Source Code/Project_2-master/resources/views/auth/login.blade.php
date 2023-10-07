@@ -55,7 +55,7 @@
 			border-radius: 4px;
 			box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 			box-sizing: border-box;
-			margin: 100px auto 10px;
+			margin: 25px auto 10px;
 			overflow: hidden;
 		}
 
@@ -318,6 +318,31 @@
 			margin-left: 0px;
 			font-size: 12px;
 		}
+
+		.b-btn{
+			width: 100px;
+			height: 40px;
+			box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+			background: #ffffff;
+			border: none;
+			border-radius: 7px;
+			margin: 20px 0 10px 40px;
+			transition: 0.3s;
+		}
+		.b-btn a{
+			color:#4d4d4d;
+			text-decoration:none;
+			font-size: 16px;
+		}
+
+		.b-btn:hover{
+			background: #e8e8e8;
+		}
+		.b-btn:hover a{
+			color:#4d4d4d;
+		}
+
+		 
 	</style>
 </head>
 
@@ -375,6 +400,7 @@
 		</div>
 	</div> -->
 
+	<button class="b-btn"><a href="./#">Back</a></button>
 	<div class="form">
 		<div class="form-toggle"></div>
 		<div class="form-panel one">
